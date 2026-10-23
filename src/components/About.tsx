@@ -62,7 +62,7 @@ export const About: React.FC<AboutProps> = ({ profile }) => {
             {profile.bio}
           </p>
           <div className="text-xs font-mono text-neutral-400 pt-2 flex flex-wrap items-center gap-3">
-            <span>Institution: Anna University</span>
+            <span>Institution: SETHU INSTITTUTE OF TECHNOLOGY</span>
             <span aria-hidden="true">·</span>
             <span>Program: B.E. Electronics &amp; Communication Engineering</span>
             <span aria-hidden="true">·</span>
