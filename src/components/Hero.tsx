@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProfileData } from '../types/portfolio';
 import { ArrowDown, Linkedin, Mail, ExternalLink, Download } from 'lucide-react';
-import portraitImg from '../assets/images/mohamed_profile_official_1792217312777.jpg';
+import portraitImg from '../assets/images/WhatsApp Image 2026-10-10 at 8.29.17 AM.jpeg';
 
 interface HeroProps {
   profile: ProfileData;
