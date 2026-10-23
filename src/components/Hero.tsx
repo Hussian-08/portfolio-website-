@@ -114,7 +114,7 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenResume }) => {
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <div className="relative group w-full max-w-sm aspect-square rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900 shadow-2xl">
               <img
-                src="WhatsApp Image 2026-10-10 at 8.29.17 AM.jpeg"
+                src="assets/images/WhatsApp%20Image%202026-10-10%20at%208.29.17%20AM.jpeg"
                 alt={`${profile.name} - Electronics & Communication Engineer`}
                 className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-500 ease-out"
                 loading="eager"
