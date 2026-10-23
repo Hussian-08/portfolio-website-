@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProfileData } from '../types/portfolio';
 import { ArrowDown, Linkedin, Mail, ExternalLink, Download } from 'lucide-react';
-import portraitImg from '../assets/images/WhatsApp Image 2026-10-10 at 8.29.17 AM.jpeg';
+
 
 interface HeroProps {
   profile: ProfileData;
@@ -114,7 +114,7 @@ export const Hero: React.FC<HeroProps> = ({ profile, onOpenResume }) => {
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <div className="relative group w-full max-w-sm aspect-square rounded-2xl overflow-hidden border border-neutral-800 bg-neutral-900 shadow-2xl">
               <img
-                src={portraitImg}
+                src="WhatsApp Image 2026-10-10 at 8.29.17 AM.jpeg"
                 alt={`${profile.name} - Electronics & Communication Engineer`}
                 className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-500 ease-out"
                 loading="eager"
